@@ -65,4 +65,19 @@ footer::before {
     filter: blur(5px); /* مقدار التمويه */
     z-index: -1; /* جعل الصورة في الخلفية */
 }
+.d-flex a {
+    font-size: 1.5rem; /* حجم الأيقونات */
+    color: white; /* لون الأيقونات */
+    transition: color 0.3s; /* تأثير عند التمرير */
+}
+
+.d-flex a:hover {
+    color: #ffc107; /* لون جديد عند التمرير */
+}
+.menu-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
